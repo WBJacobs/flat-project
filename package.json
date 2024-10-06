@@ -1,0 +1,36 @@
+{
+    "name": "flat-project",
+    "version": "1.0.0",
+    "description": "Generate a flat structure of your project and create a tree view",
+    "main": "flat-project.js",
+    "bin": {
+      "flat-project": "./cli.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["flat", "project", "structure", "tree", "generator", "directory"],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "dependencies": {
+      "ignore": "^5.2.0"
+    },
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/flat-project.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yourusername/flat-project/issues"
+    },
+    "homepage": "https://github.com/yourusername/flat-project#readme",
+    "files": [
+      "flat-project.js",
+      "cli.js",
+      "README.md",
+      "LICENSE"
+    ],
+    "engines": {
+      "node": ">=12.0.0"
+    }
+  }
