@@ -2,17 +2,24 @@ name: Publish to npm
 
 on:
   release:
-    types: [created]
+    types: [created, published]
+  workflow_run:
+    workflows: ["Auto Create Release"]
+    types:
+      - completed
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'release' }}
     steps:
     - uses: actions/checkout@v2
-    - name: Check release trigger
+    - name: Diagnostic information
       run: |
-        echo "Release created. Triggering npm publish workflow."
-        echo "Release tag: ${{ github.ref }}"
+        echo "Event name: ${{ github.event_name }}"
+        echo "Event action: ${{ github.event.action }}"
+        echo "Release tag name: ${{ github.event.release.tag_name }}"
+        echo "Workflow run conclusion: ${{ github.event.workflow_run.conclusion }}"
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
