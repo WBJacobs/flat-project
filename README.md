@@ -1,6 +1,8 @@
 # flat-project
 
-`flat-project` is a command-line tool that generates a flat structure of your project and creates a tree view. It's useful for getting a quick overview of your project structure or for creating a simplified version of your project directory.
+`flat-project` is a command-line tool that generates a flat structure of your project and creates a tree view to easily visual it.
+It's useful for getting a quick overview of your project structure or for creating a simplified version of your project directory.
+I've personally been using it to quickly upload files for a project on [claude.ai](https://www.claude.ai).
 
 ## Installation
 
@@ -10,9 +12,15 @@ You can install `flat-project` globally using npm:
 npm install -g flat-project
 ```
 
+or alternatively, you can install it locally using npm:
+
+```bash
+npm install --save-dev flat-project
+```
+
 ## Usage
 
-After installation, you can use `flat-project` in any directory by running:
+After installation, you can use `flat-project` by running:
 
 ```bash
 flat-project
