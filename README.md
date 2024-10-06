@@ -1,6 +1,10 @@
 # flat-project
 
-`flat-project` is a command-line tool that generates a flat structure of your project and creates a tree view to easily visual it.
+[![npm version](https://img.shields.io/npm/v/flat-project.svg)](https://www.npmjs.com/package/flat-project)
+[![npm downloads](https://img.shields.io/npm/dm/flat-project.svg)](https://www.npmjs.com/package/flat-project)
+[![GitHub license](https://img.shields.io/github/license/WBJacobs/flat-project.svg)](https://github.com/WBJacobs/flat-project/blob/main/LICENSE)
+
+`flat-project` is a command-line tool that generates a flat structure of your project and creates a tree view to easily visualize it.
 It's useful for getting a quick overview of your project structure or for creating a simplified version of your project directory.
 I've personally been using it to quickly upload files for a project on [claude.ai](https://www.claude.ai).
 
@@ -57,4 +61,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Issues
 
-If you find a bug or have a suggestion for improvement, please open an issue on the GitHub repository.
+If you find a bug or have a suggestion for improvement, please open an issue on the [GitHub repository](https://github.com/WBJacobs/flat-project/issues).
