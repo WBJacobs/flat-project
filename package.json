@@ -1,6 +1,6 @@
 {
   "name": "flat-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command-line tool that generates a flat structure of your project and creates a tree view to easily visual it. It's useful for getting a quick overview of your project structure or for creating a simplified version of your project directory. I've personally been using it to quickly upload files for a project on claude.ai.",
   "main": "flat-project.js",
   "bin": {
